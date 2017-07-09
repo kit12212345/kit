@@ -1,0 +1,182 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+  margin: 0px;
+  padding: 0px;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Roboto';
+  font-size: 14px;
+}
+h1,h2,h3,h4{
+  margin: 0px;
+  padding: 0px;
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol, ul{
+	list-style: none;
+}
+.txt{
+  font-size: inherit;
+}
+.float_r{
+  float: right;
+}
+.float_l{
+  float: left;
+}
+.clear{
+  clear: both;
+}
+.i_block{
+  display: inline-block;
+}
+.header{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  z-index: 100;
+}
+.active_header{
+  background: rgba(7, 72, 119, 0.74);
+}
+.head_content{
+  width: 95%;
+  margin: auto;
+  margin-top: 5px;
+}
+.logo{
+  width: 150px;
+  height: 100%;
+}
+.logo_img{
+  width: 100%;
+  height: 100%;
+}
+.top_menu_item{
+  padding: 12.9px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.top_menu_item:hover{
+  border-bottom: 3px solid #4797f9;
+}
+.home{
+  background-image: url(/images/template_images/img_8.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.select_item{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.m_title{
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+.m__title{
+  color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.btn{
+  color: #fff;
+}
+.btn_main{
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.27);
+  border: 2px solid #fff;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+.btn_main:hover{
+  background: #0058dc;
+  border-color: #0058dc;
+}
+.info{
+  background-image: url(/images/template_images/img_7.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.about{
+  background: #ffd370 url(/images/template_images/pattern.png);
+}
+.work{
+  background: #70a3ff url(/images/template_images/pattern.png);
+}
+.is_anim{
+  opacity: 0; 
+}
+.animated{
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.flipInX{
+  -webkit-backface-visibility:visible;
+  backface-visibility:visible;
+  -webkit-animation-name:flipInX;
+  animation-name:flipInX;
+  opacity:1;
+  visibility:visible;
+}
+.rollIn{
+  -webkit-animation-name:rollIn;
+  animation-name:rollIn;
+  visibility:visible;
+}
+.rubberBand{
+  -webkit-animation-name:rubberBand;
+  animation-name:rubberBand;
+  visibility: visible;
+}
+.zoomInDown{
+  -webkit-animation-name:zoomInDown;
+  animation-name:zoomInDown;
+  visibility: visible;
+}

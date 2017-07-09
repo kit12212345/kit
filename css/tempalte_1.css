@@ -1,0 +1,88 @@
+.el_move{
+  border: 1px dotted #000;
+}
+.set_element{
+  background: rgba(167, 167, 167, 0.36);
+}
+
+.new_element{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+}
+.el_icon_e{
+  float: left;
+  background-image: url('/images/icons/sprite.png');
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 14px;
+}
+.el_edit_icon{
+  background-position: 0px -72px;
+}
+.el_delete_icon{
+  background-position: -314px -2px;
+  margin-left: 10px;
+}
+.move_block_edit{
+  position: absolute;
+  top: -21px;
+  right: 0px;
+  background: #333;
+  padding: 3px 10px;
+  border-radius: 4px;
+  cursor: pointer!important ;
+}
+
+  .modal_edit_element{
+    position: fixed;
+    width: 400px;
+    background: #696969;
+    padding: 0px;
+    z-index: 100;
+    left: 159px;
+  }
+  .e_el_items{
+    background: #404040;
+  }
+  .e_el_items .e_item{
+    float: left;
+    color: #fff;
+    padding: 10px;
+  }
+  .e_el_items .e_active{
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.71) inset, 0 2px 3px rgb(0, 0, 0) inset, 0 1px 1px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.71) inset, 0 2px 3px rgb(0, 0, 0) inset, 0 1px 1px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.71) inset, 0 2px 3px rgb(0, 0, 0) inset, 0 1px 1px rgba(0, 0, 0, 0);
+    background: #353535;
+  }
+  .e_el_content{
+    padding: 10px;
+  }
+  .e_el_color{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    margin-top: 15px;
+  }
+  .modal_color_pic{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    background: #fff;
+    padding: 10px;
+  }
+.btn{
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 3px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.btn_apply_color, .btn_close_color{
+  width: 48%;
+  margin-top: 10px;
+}

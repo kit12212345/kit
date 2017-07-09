@@ -1,0 +1,40 @@
+body{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#frame{
+  display: block;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+#frame iframe{
+  width: 100%;
+  height: 100%;
+}
+.el_move{
+  border: 1px dotted #000;
+}
+.create_element{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: red;
+}
+.small_element{
+  position: absolute;
+  background: green;
+  top: -100;
+  left: -100;
+  width: 30px;
+  height: 30px;
+  opacity: .4;
+}
+.set_element{
+  background: rgba(167, 167, 167, 0.36);
+}
